@@ -1,28 +1,28 @@
-h1 {
-    /* color: red;
+ h1 {
+     color: red;
     background-color: pink;
     font-size: 50px;
     font-family: monospace;
     font-style: italic;
-    font-weight: bold; */
+    font-weight: bold; 
 }
-/* 
+ 
 h3 {
     color: blue;
-} */
+} 
 
-/* div{
+ div{
     height:300px;
     width:300px;
     background-color: crimson;
-} */
+} 
 
-/* button{
+button{
     margin: 40px;
     font-size: 20px;
-    padding: 15px 30px;
-    /* background-color: yellow;  */
-    /* border: 2px solid white;
+     padding: 15px 30px;
+    background-color: yellow;  
+    border: 2px solid white;
     
 }
 
@@ -31,7 +31,7 @@ button:hover{
     color: black;
 }
 
-#box1{
+ #box1{
     height: 200px;
     width: 200px;
     background-color: red;
@@ -40,10 +40,10 @@ button:hover{
     position: absolute;
     left: 50%;
     top: 50%;
-    transform: translate(-50%,-50%) 
+    transform: translate(-50%,-50%);
     z-index: 9;
 
-}
+} 
     
 #box2{
     height: 200px;
@@ -55,25 +55,25 @@ button:hover{
     position: absolute;
     left: 45%;
     top: 60%;
-    transform: translate(-50%,-50%) 
+    transform: translate(-50%,-50%);
     z-index: 10;
+}
     
 
-} */ 
-/* 
+
 h1{
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
-    text-align: center;
+    transform: translate(-50%,-50%); 
+    text-align: center; 
     font-size: 60px;
 }
 h1 span{
     font-size: 60px;
     font-weight: 500px;
-} */
-#parent{
+} 
+#parent{ 
     height: 100%;
     width: 100%;
     background-color: #111;
@@ -89,5 +89,5 @@ h1 span{
     height: 200px;
     width: 200px;
     background-color: crimson;
-    border: 3px solid #fff
+    border: 3px solid #fff;
 }
