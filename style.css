@@ -11,8 +11,23 @@ h3 {
     color: blue;
 }
 
-div{
+/* div{
     height:300px;
     width:300px;
     background-color: crimson;
+} */
+
+button{
+    margin: 40px;
+    font-size: 20px;
+    padding: 15px 30px;
+    /* background-color: yellow;  */
+    border: 2px solid white;
+    
 }
+
+button:hover{
+    background-color:yellow;
+    color: black;
+}
+
