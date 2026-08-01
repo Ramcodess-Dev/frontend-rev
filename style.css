@@ -1,15 +1,15 @@
 h1 {
-    color: red;
+    /* color: red;
     background-color: pink;
     font-size: 50px;
     font-family: monospace;
     font-style: italic;
-    font-weight: bold;
+    font-weight: bold; */
 }
-
+/* 
 h3 {
     color: blue;
-}
+} */
 
 /* div{
     height:300px;
@@ -17,12 +17,12 @@ h3 {
     background-color: crimson;
 } */
 
-button{
+/* button{
     margin: 40px;
     font-size: 20px;
     padding: 15px 30px;
     /* background-color: yellow;  */
-    border: 2px solid white;
+    /* border: 2px solid white;
     
 }
 
@@ -59,4 +59,35 @@ button:hover{
     z-index: 10;
     
 
+} */ 
+/* 
+h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    font-size: 60px;
+}
+h1 span{
+    font-size: 60px;
+    font-weight: 500px;
+} */
+#parent{
+    height: 100%;
+    width: 100%;
+    background-color: #111;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+
+
+
+.child{
+    height: 200px;
+    width: 200px;
+    background-color: crimson;
+    border: 3px solid #fff
 }
